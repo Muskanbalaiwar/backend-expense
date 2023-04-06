@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Candy Shop</title>
+</head>
+<body style="background-color:#798896">
+    <div class="text-center">
+  <form id="form_id" class="form-inline mb-3">
+    <label>Candy Name</label><br>
+    <input type="text" name="Name" id="name_id"><br><br>
+    <label>Description</label><br>
+    <input type="text" name="Description" id="description_id"><br><br>
+    <label>Price Per Candy</label><br>
+    <input type="Number" name="Price" id="price_id"><br><br>
+    <label>Quantity</label><br>
+    <input type="Number" name="Quantity" id="quantity_id"><br><br>
+    <div class="text-center">
+        <input type="submit" class="btn btn-success" value ="Add details ">
+      </div>
+  </form> 
+    </div> 
+
+    <h2 class="title text-right">Details</h2>
+    <ul id="items" class="list-group"> 
+    </ul> 
+            
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+        <script src="candyShop.js"></script>
+</body>
+</html>
